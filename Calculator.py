@@ -10,7 +10,7 @@ def main():
             print(num1 - num2)
         elif choice == 'multiply':
             print(num1 * num2)
-        elif choice == 'divide':
+        elif choice == 'divide' and num2 != 0:
             print(num1 / num2)
         else:
             print("Invalid input. Please try again.")
