@@ -8,7 +8,7 @@ def main():
             print(num1 + num2)
         elif choice == 'subtract':
             print(num1 - num2)
-        elif choice == 'multiply':
+        elif choice == 'multiply' and num2 != 0:
             print(num1 * num2)
         elif choice == 'divide' and num2 != 0:
             print(num1 / num2)

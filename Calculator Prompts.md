@@ -6,3 +6,5 @@ Honestly I am very satisfied with the first results. I would try to push for mor
 NOTES: Decided to add handling for dividing by zero. Also seeing if it can do *any* normal text handling. Appears not though.
 3: Add error handling for all possible invalid inputs.
 NOTES: Casting a very wide net. Seeing if it can recognize that it will error if you multiply by zero (It doesn't) [IT DIDN'T CHANGE THE CODE]
+4: Multiplying by zero produces an error. Fix it. ValueError: invalid literal for int() with base 10: 'multiply'
+NOTES: Being direct with it seems to work.
